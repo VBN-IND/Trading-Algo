@@ -60,15 +60,15 @@ trading-algo/
 ##  Quickstart
 
 ```bash
-# Clone & install
+# Cloning & installing
 git clone https://github.com/VBN-IND/trading-algo.git
 cd trading-algo
 pip install -r requirements.txt
 
-# Run risk analysis on a ticker
+# Running risk analysis on a ticker
 python main.py --ticker AAPL --period 1y
 
-# Run on multiple tickers
+# Running on multiple tickers
 python main.py --ticker AAPL MSFT GOOGL --period 6mo
 ```
 
