@@ -1,4 +1,4 @@
-# 📈 AlgoRisk — Automated Market Data Ingestion & Predictive Risk Analysis
+# Trading-Algo - Risk Part — Automated Market Data Ingestion & Predictive Risk Analysis.
 
 > **Status: Active Development** — Core ingestion pipeline and risk modules operational. Backtesting engine and live signal generation in progress.
 
@@ -6,7 +6,7 @@ A Python-based algorithmic trading framework focused on automated market data in
 
 ---
 
-## 🔍 Overview
+## Overview
 
 AlgoRisk ingests real-time and historical market data, computes risk metrics (VaR, CVaR, Sharpe, Beta), and applies statistical models to forecast short-term volatility and drawdown risk across equity portfolios.
 
@@ -17,7 +17,7 @@ AlgoRisk ingests real-time and historical market data, computes risk metrics (Va
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 trading-algo/
@@ -40,16 +40,16 @@ trading-algo/
 
 ---
 
-## ⚙️ Features
+##  Features
 
-### ✅ Implemented
+###  Implemented
 - **Market Data Ingestion** — Fetches OHLCV data for any ticker via `yfinance`; normalised into consistent pandas DataFrames
 - **Rolling Risk Metrics** — Value at Risk (historical & parametric), Conditional VaR, Sharpe Ratio, max drawdown, rolling Beta
 - **Volatility Forecasting** — EWMA (Exponentially Weighted Moving Average) model for forward-looking vol estimates
 - **Z-Score Signals** — Flags statistically significant price deviations from rolling mean
 - **CLI Interface** — Run full analysis on any ticker from the command line
 
-### 🔄 In Progress
+### In Progress
 - Multi-asset portfolio risk aggregation
 - Correlation matrix & diversification scoring
 - Backtesting engine with configurable strategies
@@ -57,7 +57,7 @@ trading-algo/
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ```bash
 # Clone & install
@@ -89,7 +89,7 @@ EWMA Vol Forecast     : 27.91%
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```
 yfinance>=0.2.36
@@ -101,7 +101,7 @@ matplotlib>=3.8.0
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Live data streaming via WebSocket
 - [ ] Portfolio-level VaR with correlation adjustments
@@ -111,7 +111,7 @@ matplotlib>=3.8.0
 
 ---
 
-## 📝 Notes
+##  Notes
 
 This is a personal research project built to deepen understanding of quantitative risk modelling and systematic trading infrastructure. Not financial advice.
 
