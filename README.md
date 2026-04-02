@@ -61,7 +61,7 @@ trading-algo/
 
 ```bash
 # Clone & install
-git clone https://github.com/yourusername/trading-algo.git
+git clone https://github.com/VBN-IND/trading-algo.git
 cd trading-algo
 pip install -r requirements.txt
 
